@@ -1,18 +1,30 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="daekaos.github.io" resolutions="1x,2x" timestamp="1523488935416">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="daekaos.github.io" resolutions="1x,2x" timestamp="1523518255242">
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4021538510" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="195793955" seo="true" mt="1523498662419" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="62426684" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="60818178" seo="true" mt="1523498662420" redirect="false"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="456388945" ref="index"/>
-    <file name="index.css" crc="356574109" ref="index"/>
+    <file name="master_a-master.css" crc="105921316" ref="index"/>
+    <file name="index.css" crc="329090392" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3803043152" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="380897831" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:tablet>index"/>
+    <file name="museutils.js" crc="3803043152" ref="index:phone>index:tablet>index"/>
+    <file name="whatinput.js" crc="86476730" ref="index:phone>index:tablet>index"/>
+    <file name="museconfig.js" crc="380897831" ref="index:phone>index:tablet>index"/>
     <file name="jquery.musemenu.js" crc="3784699396" ref="index"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:phone>index:tablet>index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
-    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:phone>index:tablet>index"/>
   </folder>
   <folder name="images">
     <file name="takeda_blue.png" crc="500508394" seo="true" ref="index">
@@ -32,14 +44,28 @@
     <file name="u131_2x.png" crc="58857596" ref="index"/>
     <file name="u131-r.png" crc="171418498" ref="index"/>
     <file name="u131-r_2x.png" crc="58857596" ref="index"/>
-    <file name="u395.png" crc="3797432813" ref="index"/>
-    <file name="u395_2x.png" crc="3968351700" ref="index"/>
-    <file name="u395-r.png" crc="3797432813" ref="index"/>
-    <file name="u395-r_2x.png" crc="3968351700" ref="index"/>
-    <file name="u426.png" crc="262207880" ref="index"/>
-    <file name="u426_2x.png" crc="326908159" ref="index"/>
-    <file name="u426-r.png" crc="262207880" ref="index"/>
-    <file name="u426-r_2x.png" crc="326908159" ref="index"/>
+    <file name="u395.png" crc="262207880" ref="index"/>
+    <file name="u395_2x.png" crc="326908159" ref="index"/>
+    <file name="u395-r.png" crc="262207880" ref="index"/>
+    <file name="u395-r_2x.png" crc="326908159" ref="index"/>
+    <file name="u426.png" crc="4090769339" ref="index"/>
+    <file name="u426_2x.png" crc="133134603" ref="index"/>
+    <file name="u426-r.png" crc="4090769339" ref="index"/>
+    <file name="u426-r_2x.png" crc="133134603" ref="index"/>
+    <file name="u720.png" crc="3797432813" ref="index"/>
+    <file name="u720_2x.png" crc="3968351700" ref="index"/>
+    <file name="u720-r.png" crc="3797432813" ref="index"/>
+    <file name="u720-r_2x.png" crc="3968351700" ref="index"/>
+    <file name="u767.png" crc="246742170" ref="index"/>
+    <file name="u767_2x.png" crc="4044506315" ref="index"/>
+    <file name="u767-r.png" crc="246742170" ref="index"/>
+    <file name="u767-r_2x.png" crc="4044506315" ref="index"/>
+    <file name="banner.jpg" crc="352926969" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="banner_2x.jpg" crc="4173068834" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4138943491" seo="true" mt="1523488708719" redirect="true"/>
+  <file name="index.html" crc="424244948" seo="true" mt="1523518059705" redirect="true"/>
 </manifest>
